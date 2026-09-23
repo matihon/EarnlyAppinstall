@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0f12">
+  <title>Earnly — Download App</title>
+  <meta name="description" content="Earnly is an earning-focused Android application where users can earn rewards by completing ad-based activities, subject to app rules and availability.">
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:#f7f8fa;
+      color:#17191c;
+    }
+    .top{
+      height:64px;
+      background:#fff;
+      border-bottom:1px solid #e7e9ec;
+      display:flex;
+      align-items:center;
+      padding:0 20px;
+      font-weight:800;
+      font-size:20px;
+      letter-spacing:-.3px;
+    }
+    .top span{color:#63c61b}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px 50px}
+    .card{
+      background:#fff;
+      border:1px solid #e6e8eb;
+      border-radius:22px;
+      overflow:hidden;
+      box-shadow:0 8px 30px rgba(20,25,30,.06);
+    }
+    .hero{
+      padding:28px 24px 24px;
+      display:flex;
+      gap:22px;
+      align-items:center;
+    }
+    .icon{
+      width:112px;height:112px;border-radius:24px;object-fit:cover;
+      flex:none;
+      box-shadow:0 5px 18px rgba(0,0,0,.16);
+    }
+    h1{margin:0 0 6px;font-size:30px;letter-spacing:-.7px}
+    .category{color:#5f6368;font-size:15px;margin-bottom:12px}
+    .stars{font-size:14px;color:#5f6368}
+    .stars strong{color:#202124}
+    .download{
+      margin:0 24px 26px;
+      display:block;
+      text-align:center;
+      text-decoration:none;
+      background:#1f9d19;
+      color:#fff;
+      padding:15px 20px;
+      border-radius:12px;
+      font-weight:800;
+      font-size:17px;
+      box-shadow:0 5px 14px rgba(31,157,25,.22);
+    }
+    .download:active{transform:translateY(1px)}
+    .note{text-align:center;color:#777;font-size:12px;margin:-14px 24px 24px}
+    .section{border-top:1px solid #eceef0;padding:22px 24px}
+    .section h2{margin:0 0 10px;font-size:19px}
+    .section p{margin:0;color:#5f6368;line-height:1.65;font-size:15px}
+    .info{
+      display:grid;grid-template-columns:repeat(2,1fr);gap:1px;
+      background:#e9ebee;border:1px solid #e9ebee;border-radius:12px;overflow:hidden;
+      margin-top:14px;
+    }
+    .info div{background:#fff;padding:14px}
+    .label{display:block;color:#777;font-size:12px;margin-bottom:5px}
+    .value{font-weight:700;font-size:14px}
+    .footer{text-align:center;color:#8a8f94;font-size:12px;padding:22px 10px}
+
+    .support{background:#fbfffa}
+    .whatsapp{
+      display:block;text-align:center;margin-top:16px;padding:13px 16px;
+      border-radius:11px;background:#1f9d19;color:#fff;text-decoration:none;
+      font-weight:800;font-size:15px;
+    }
+    @media(max-width:560px){
+      .hero{align-items:flex-start;padding:22px 18px}
+      .icon{width:92px;height:92px;border-radius:20px}
+      h1{font-size:27px}
+      .download{margin-left:18px;margin-right:18px}
+      .section{padding:20px 18px}
+      .info{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header class="top">Earn<span>ly</span></header>
+
+  <main class="wrap">
+    <div class="card">
+      <section class="hero">
+        <img class="icon" src="icon.png" alt="Earnly app icon">
+        <div>
+          <h1>Earnly</h1>
+          <div class="category">Earn rewards • Android application</div>
+          <div class="stars">★ <strong>Earnly</strong> · Latest version available</div>
+        </div>
+      </section>
+
+      <!-- Keep Earnly.apk in the same GitHub Pages folder as this index.html.
+           Later, you can replace this href with your GitHub Release direct APK URL. -->
+      <a class="download" href="Earnly.apk" download>Download APK</a>
+      <div class="note">Android app • Direct APK download</div>
+
+      <section class="section">
+        <h2>About this app</h2>
+        <p>
+          Earnly is an earning-focused application that lets users earn rewards
+          by completing ad-based activities, subject to the app's rules,
+          eligibility and availability.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>App information</h2>
+        <div class="info">
+          <div><span class="label">App name</span><span class="value">Earnly</span></div>
+          <div><span class="label">Platform</span><span class="value">Android</span></div>
+          <div><span class="label">File</span><span class="value">Earnly.apk</span></div>
+          <div><span class="label">Download</span><span class="value">Direct APK</span></div>
+        </div>
+      </section>
+
+      <section class="section support">
+        <h2>Need Help?</h2>
+        <p>If you're having trouble downloading or installing the Earnly application, our customer support team is available on WhatsApp.</p>
+        <a class="whatsapp" href="https://wa.me/923183304588?text=Hello%20Earnly%20Support%2C%20I%20need%20help%20with%20the%20application." target="_blank" rel="noopener">
+          💬 Contact Support on WhatsApp
+        </a>
+      </section>
+    </div>
+
+    <div class="footer">© 2026 Earnly · Official app download page</div>
+  </main>
+</body>
+</html>
